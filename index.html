@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>z
+    <nav>
+        <img src="images/logo.png" alt="">
+    </nav>
+    <div class="container">
+        <div class="content">
+            <div class="left-form">
+                <div class="sign-up-content">
+                    <h1>Welcome Back!</h1>
+                    <p>Hello there, don't have any account ?</p>
+                    <button class="toggle-button" onClick="slide()">Sign up</button>
+                </div>
+                <div class="login-content">
+                    <h1>Hello, Friend!</h1>
+                    <p>Already have account?</p>
+                    <button onClick="slideBack()">Login</button>
+                </div>
+            </div>
+            <div class="right-form">
+                <div class="sign-in-form">
+                    <h1 class="title-sign-in">Sign In</h1>
+                    <div class="input">
+                        <input type="text" required="required">
+                        <span>username</span>
+                    </div>
+                    <div class="input">
+                        <input type="password" required="required">
+                        <span>password</span>
+                    </div>
+                    <button type="submit" class="sign-in-button">sign in</button>
+                </div>
+                <div class="sign-up-form">
+                    <h1 class="title-sign-up">Sign Up</h1>
+                    <div class="input">
+                        <input type="text" required="required">
+                        <span>username</span>
+                    </div>
+                    <div class="input">
+                        <input type="password" required="required">
+                        <span>password</span>
+                    </div>
+                    <button type="submit" class="sign-in-button">sign up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+</html>
